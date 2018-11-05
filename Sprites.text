@@ -1,0 +1,19 @@
+Demonstrate your understanding of today's concepts by answering the following free-form questions. Submit them as a text file along with your project.
+
+Why do we use version control? Under what circumstances would you need version control features and why?
+What are the navigator, editor, and inspectors areas in Xcode? What are their roles and how do you use them?
+How do you center a view in Interface Builder? How do you stretch one?
+What is SpriteKit and why do people use it?
+
+
+1. We use version control so we can go back earlier in a project if we make mistakes.  Also, it allows for easier review of code. You would need version control working in a group, so everyone can see changes and project manager can accept them.
+
+2.  navigator- how you go threw files in app
+    editor- Requests the role Editor (the application can read, present, manipulate, and 	save the item).    
+    inspectors- most used toolbar, has set initial view controller, set font, alignment 	etc.
+
+3. You center a view in Interface Builder by using "align" and selecting "horizontally" and "vertically" then "add constraints".
+
+You stretch a view by using "add new constraints" and change all four directions to zero will stretch to the ends of the screen.
+
+4. SpriteKit is what allows Xcode to run sprites. People use it for animation.
