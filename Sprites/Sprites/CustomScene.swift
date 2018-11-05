@@ -16,9 +16,18 @@ class CustomScene: SKScene {
         
         //Return a random color - drand48() returns a random double between 0 and 1 - we convert the double into a float by type casting the result of drand48 to CGFloat, because UIColor() can only take a float
         func getRandomColor() -> UIColor {
-            let randomRed: CGFloat = CGFloat(drand48())
-            let randomGreen: CGFloat = CGFloat(drand48())
-            let randomBlue: CGFloat = CGFloat(drand48())
+            var randomRed: CGFloat = CGFloat(drand48())
+            var randomGreen: CGFloat = CGFloat(drand48())
+            var randomBlue: CGFloat = CGFloat(drand48())
+            if randomRed < 0.5 {
+                randomRed += 0.5
+            }
+            if randomBlue < 0.5 {
+                randomRed += 0.5
+            }
+            if randomGreen < 0.5 {
+                randomRed += 0.5
+            }
             return UIColor(red: randomRed, green: randomGreen, blue: randomBlue, alpha: 1.0)
         }
         
