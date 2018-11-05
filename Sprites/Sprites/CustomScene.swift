@@ -16,8 +16,9 @@ class CustomScene: SKScene {
         
         // Work with your touch here
         let node = SKShapeNode(circleOfRadius: 8)
-        node.fillColor = .red
+        node.fillColor = UIColor(displayP3Red: CGFloat(Float.random(in: 0 ..< 1)), green: CGFloat(Float.random(in: 0 ..< 1)), blue: CGFloat(Float.random(in: 0 ..< 1)), alpha: CGFloat(Float.random(in: 0 ..< 1)))
         node.position = touch.location(in: self)
         addChild(node)
+        
     }
 }
