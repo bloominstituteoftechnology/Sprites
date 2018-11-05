@@ -1,0 +1,49 @@
+
+Why do we use version control?
+
+- Version control is what software engineers and developers
+use to track changes in their code, test out new code, and sometimes
+revert code back to previous versions. Version control also allows
+for team collaboration, allowing users to commit and review small and
+large parts of a code base.
+
+Under what circumstances would you need version control features and why?
+
+You want version control when you are working on a project that
+you either want to keep working on or when you're working on a project
+with a team. You can think of you 2 months from now as a 'team member'
+as well. Any time that a code base requires continued
+
+What are the navigator, editor, and inspectors areas in Xcode?
+
+The navigator is the far left window. The editor is the middle window.
+The inspector area is the far right window.
+
+What are their roles and how do you use them?
+
+The navigator is for navigating the file system. It is also useful in debugging
+as it will show some error (it is not the debugger however). It also allows you
+to search and very object hierarchy.
+
+The editor is where you edit your code and create user interfaces with interface
+builder. The editor also has an assistant editor that is useful when making
+changes to multiple files at the same time or when working with the interface
+builder.
+
+The inspector area gives details about the objects and files that you have
+selected in the navigation and editor window. The inspector shows and allows
+you to edit properties of those objects/classes/methods and more.
+
+How do you center a view in Interface Builder? How do you stretch one?
+
+To center a view in interface builder you can use the thai-fighter button
+to make sure that the view is centered, either vertically or horizontally,
+on the screen. You stretch it by either clicking on the bar chart or using
+the Thai-fighter to stretch the view to the edge.
+
+What is SpriteKit and why do people use it?
+
+SpriteKit is a class that has set of properties and methods that
+are useful in making 2D animated objects for games and other sorts of
+fun visuals. People use it because it's tools help you develop app, games, and
+sprites faster than if you had to build them from scratch.
