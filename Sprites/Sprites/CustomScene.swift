@@ -23,10 +23,10 @@ class CustomScene: SKScene {
                 randomRed += 0.5
             }
             if randomBlue < 0.5 {
-                randomRed += 0.5
+                randomBlue += 0.5
             }
             if randomGreen < 0.5 {
-                randomRed += 0.5
+                randomGreen += 0.5
             }
             return UIColor(red: randomRed, green: randomGreen, blue: randomBlue, alpha: 1.0)
         }
@@ -36,6 +36,10 @@ class CustomScene: SKScene {
         node.fillColor = getRandomColor()
         node.position = touch.location(in: self)
         addChild(node)
+        let zoomAction = SKAction.scale(by: 1.3, duration: 0.3)
+        let unzoomAction = SKAction.scale(to: 1.0, duration: 0.1)
+        let sequenceAction = SKAction.sequence([zoomAction,unzoomAction])
+        node.run(sequenceAction)
         
         // Work with your touch here
     }
