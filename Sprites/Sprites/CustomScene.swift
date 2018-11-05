@@ -20,5 +20,10 @@ class CustomScene: SKScene {
         node.position = touch.location(in: self)
         addChild(node)
         
+        // Create move action
+        let actionDuration = 10.0
+        let moveAction = SKAction.move(to: CGPoint(x: size.width/2, y: size.height/2), duration: actionDuration)
+        node.run(moveAction)
+        
     }
 }
