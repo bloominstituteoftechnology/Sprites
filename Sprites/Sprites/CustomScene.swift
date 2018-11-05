@@ -9,8 +9,9 @@ class CustomScene: SKScene {
         // Work with your touch here
         
         let node = SKShapeNode(circleOfRadius: 8)
-        node .fillColor = .yellow
+        node.fillColor = .yellow
         node.position = touch.location(in: self)
         addChild(node)
+        //Done
     }
 }
