@@ -10,6 +10,16 @@ import UIKit
 import SpriteKit
 
 class CustomScene: SKScene {
+    
+    public func setSuperNode(){
+        // Work with your touch here
+        let superNode = SKShapeNode(circleOfRadius: 15)
+        superNode.fillColor = .black
+        superNode.position = CGPoint(x: size.width/2, y: size.height/2)
+        addChild(superNode)
+    }
+    
+    
     public override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         guard !touches.isEmpty, let touch = touches.first
             else { return }
