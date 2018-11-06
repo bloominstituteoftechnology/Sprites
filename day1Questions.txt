@@ -1,0 +1,24 @@
+•	Why do we use version control? Under what circumstances would you need version control features and why?
+
+We use version control in order to organize, update and maintain code projects throughout their life cycle. The concepts of master, forks, and branches enable projects to have multiple contributors and features in development while maintaining the master as an official working release.
+
+
+•	What are the navigator, editor, and inspectors areas in Xcode? What are their roles and how do you use them?
+
+These are the three major working areas in Xcode. The Navigator area is where we can see all the files associated with a given project. We use this area create and organize these files which include the interface, view and model code files, info.plist, and assets.
+
+The editor areas are the actually working area where we create interfaces in interface builder and edit the code files Xcode’s code editor.
+
+The inspector area contains the tools we use to configure, layout, and associate interface objects.
+
+
+•	How do you center a view in Interface Builder? How do you stretch one?
+
+To center a view in Interface Builder:  Select the view and go to the “Add New Constraints” (the “Tie Fighter” icon) at the bottom of Interface Builder and chose “Constrain to Margins” and then set equal distances in each of the 4 settings around the view.
+
+To stretch: grab an edge or side with mouse and drag.
+
+
+•	What is SpriteKit and why do people use it?
+
+SpriteKit is Apple’s iOS framework which contains object libraries and functions for creating 2D games and like apps.
