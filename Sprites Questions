@@ -1,0 +1,19 @@
+
+    Why do we use version control? Under what circumstances would you need version control features and why?
+
+    We use version control to record changes to a file or set of files over time so we can recall specific version later. I would need version control features anytime I am working on a team with other coders. It would allow everyone to worked on the same project at the same time without having to wait for one coder to finish or accidentally overwriting someone else's revisions.
+
+    What are the navigator, editor, and inspectors areas in Xcode? What are their roles and how do you use them?
+
+    The navigator is on the lefthand side of Xcode window. It displays information about the current project depending on which of the eight tabs is selected. The navigator is divided into Project, Symbol, Search, Issue, Test, Debug, Breakpoint and Report tabs.
+
+    The editor is in the center of the Xcode window. It is where all the source code editing, interface design and project configuration is accomplished. The editor can also be split into a main editor and an assistant editor.
+
+    The inspector is on the righthand side of the Xcode. Depending on what object is selected the inspector has six tabs, Show the File inspector, Show the Quick Help inspector, Show the Identity inspector, Show the Attribute inspector, Show the Size inspector, and Show the Connections inspector.
+
+    How do you center a view in Interface Builder? How do you stretch one?
+    First click on the align tool and then check the Horizontally in Container & Vertically in Container.
+
+
+    What is SpriteKit and why do people use it?
+    A SpriteKit is a graphics rendering and animation infrastructure that can be use to animate arbitrary textured images, otherwise known as sprites. People use SpiteKit to
