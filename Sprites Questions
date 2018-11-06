@@ -12,8 +12,8 @@
     The inspector is on the righthand side of the Xcode. Depending on what object is selected the inspector has six tabs, Show the File inspector, Show the Quick Help inspector, Show the Identity inspector, Show the Attribute inspector, Show the Size inspector, and Show the Connections inspector.
 
     How do you center a view in Interface Builder? How do you stretch one?
-    First click on the align tool and then check the Horizontally in Container & Vertically in Container.
+    To center the view - first click on the align tool and then check the Horizontally in Container & Vertically in Container. To stretch one - click on add new constraints icon. Set all the lengths to the nearest neighbor to zero.
 
 
     What is SpriteKit and why do people use it?
-    A SpriteKit is a graphics rendering and animation infrastructure that can be use to animate arbitrary textured images, otherwise known as sprites. People use SpiteKit to
+    A SpriteKit is a graphics rendering and animation infrastructure that can be use to animate arbitrary textured images, otherwise known as sprites. People use SpiteKit for animation.
