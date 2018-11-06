@@ -1,0 +1,7 @@
+We use version control so that multiple people can work on the same project without messing each other up, and so that it is easier to go back to a previous version of code to undo an error or otherwise unwanted code.
+
+The navigator helps you navigate through xcode. You can go to View -> Navigators and then select the appropriate navigator. You put code in the editors. You can go to View and choose the different editors available. The inspectors areas define different attributes relating to the Main.Storyboard.
+
+You center a view by going to the Bar Chart and check the two bottom boxes. You stretch one by going to the TIE fighter and changing the top 4 numbers to "0".
+
+Spritekit is used to render animation and graphics. It is a kit that apple provides for that purpose.
