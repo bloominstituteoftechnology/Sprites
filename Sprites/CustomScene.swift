@@ -22,10 +22,17 @@ class CustomScene: SKScene {
         node.position = touch.location(in: self)
         addChild(node)
         
+        
+        
+        let position =  CGPoint(x: frame.midX, y: frame.midY)
         let zoomAction = SKAction.scale(by: 1.3, duration: 0.5)
         let unzoomAction = SKAction.scale(to: 1.0, duration: 0.1)
         let sequenceAction = SKAction.sequence([zoomAction, unzoomAction])
         node.run(sequenceAction)
+        
+        let moveAction = SKAction.move(to: position, duration: 2.0)
+        node.run(moveAction)
+        
         
     }
         
