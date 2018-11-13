@@ -23,4 +23,4 @@ To stretch the view use TIE fighter and set all four of the constraint fields to
 
 
 **What is SpriteKit and why do people use it?**  
-A SpriteKit is an iOS object that allows animation of sprite images.  It is generally used to make 2D games.
+A SpriteKit is an iOS framework used to make 2D games.  It facilitates the animation of sprite images.
