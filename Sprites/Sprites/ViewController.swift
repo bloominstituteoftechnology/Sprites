@@ -17,7 +17,7 @@ class ViewController: UIViewController {
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        skscene = CustomScene(size: view.bounds.size)
+        skscene = CustomScene(size: view.bounds.size) //size is a parameter that is passed to the init which = Java constructor
         skview.presentScene(skscene)
     }
 
