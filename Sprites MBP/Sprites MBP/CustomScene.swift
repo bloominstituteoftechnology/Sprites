@@ -18,5 +18,13 @@ class CustomScene: SKScene {
         node.fillColor = .red
         node.position = touch.location(in: self)
         addChild(node)
+        
+        let red = CGFloat.random(in: 0.5...1.0)
+        let green = CGFloat.random(in: 0.5...1.0)
+        let blue = CGFloat.random(in: 0.5...1.0)
+        
+        let newColor = UIColor(displayP3Red: red, green: green, blue: blue, alpha: 1.0)
+        
+        node.fillColor = newColor
     }
 }
