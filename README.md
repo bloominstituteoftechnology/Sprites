@@ -1,5 +1,5 @@
 # Module Challenge: iOS Development Tools - Sprites
-
+.
 This challenge allows you to practice the concepts and techniques learned in today's guided lesson and apply them in a concrete project. Your lesson explored core iOS Development Tools. You will demonstrate proficiency by building a simple Sprite Kit application.
 
 ## Instructions
