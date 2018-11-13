@@ -12,6 +12,7 @@
 		BD3D0087219B8730004B1D27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD3D0085219B8730004B1D27 /* Main.storyboard */; };
 		BD3D0089219B8733004B1D27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD3D0088219B8733004B1D27 /* Assets.xcassets */; };
 		BD3D008C219B8733004B1D27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD3D008A219B8733004B1D27 /* LaunchScreen.storyboard */; };
+		BD3D0094219B87F3004B1D27 /* CustomScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3D0093219B87F3004B1D27 /* CustomScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		BD3D0088219B8733004B1D27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD3D008B219B8733004B1D27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BD3D008D219B8733004B1D27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD3D0093219B87F3004B1D27 /* CustomScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CustomScene.swift; path = ../../CustomScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				BD3D0081219B8730004B1D27 /* AppDelegate.swift */,
 				BD3D0083219B8730004B1D27 /* ViewController.swift */,
+				BD3D0093219B87F3004B1D27 /* CustomScene.swift */,
 				BD3D0085219B8730004B1D27 /* Main.storyboard */,
 				BD3D0088219B8733004B1D27 /* Assets.xcassets */,
 				BD3D008A219B8733004B1D27 /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			files = (
 				BD3D0084219B8730004B1D27 /* ViewController.swift in Sources */,
 				BD3D0082219B8730004B1D27 /* AppDelegate.swift in Sources */,
+				BD3D0094219B87F3004B1D27 /* CustomScene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
