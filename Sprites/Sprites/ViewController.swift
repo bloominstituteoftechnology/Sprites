@@ -3,7 +3,6 @@ import SpriteKit
 
 class ViewController: UIViewController {
     
-    
     @IBOutlet weak var skview: SKView!
     
     var skscene: CustomScene? = nil

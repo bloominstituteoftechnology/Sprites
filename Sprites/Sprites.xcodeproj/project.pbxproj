@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84004739219B95AE005C8C80 /* RandomColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84004738219B95AE005C8C80 /* RandomColor.swift */; };
 		8419B85A219B69FB0003E6B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8419B859219B69FB0003E6B4 /* AppDelegate.swift */; };
 		8419B85C219B69FB0003E6B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8419B85B219B69FB0003E6B4 /* ViewController.swift */; };
 		8419B85F219B69FB0003E6B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8419B85D219B69FB0003E6B4 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		84004738219B95AE005C8C80 /* RandomColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomColor.swift; sourceTree = "<group>"; };
 		8419B856219B69FB0003E6B4 /* Sprites.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sprites.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8419B859219B69FB0003E6B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8419B85B219B69FB0003E6B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				8419B859219B69FB0003E6B4 /* AppDelegate.swift */,
 				8419B85B219B69FB0003E6B4 /* ViewController.swift */,
 				8419B86B219B6A9B0003E6B4 /* CustomScene.swift */,
+				84004738219B95AE005C8C80 /* RandomColor.swift */,
 				8419B85D219B69FB0003E6B4 /* Main.storyboard */,
 				8419B860219B69FD0003E6B4 /* Assets.xcassets */,
 				8419B862219B69FD0003E6B4 /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84004739219B95AE005C8C80 /* RandomColor.swift in Sources */,
 				8419B85C219B69FB0003E6B4 /* ViewController.swift in Sources */,
 				8419B85A219B69FB0003E6B4 /* AppDelegate.swift in Sources */,
 				8419B86C219B6A9B0003E6B4 /* CustomScene.swift in Sources */,
