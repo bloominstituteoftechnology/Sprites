@@ -8,13 +8,16 @@ class CustomScene: SKScene {
             else { return }
         
      
-        let position = touch.location(in: self)
-       
-       
-
         let node = SKShapeNode(circleOfRadius: 8)
         node.fillColor = randomColor()
-        node.position = touch.location(in: self)
+        node.position = CGPoint(x: frame.midX, y: frame.midY)
+        let position = touch.location(in: self)
+        let actionDuration = 0.5
+        let moveAction = SKAction.move(to: position, duration: actionDuration)
+        node.run(moveAction)
+            
+        
+        
         addChild(node)
         
         
