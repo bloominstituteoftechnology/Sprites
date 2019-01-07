@@ -12,6 +12,7 @@
 		CA30F9CC21E3FEB100F99978 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA30F9CA21E3FEB100F99978 /* Main.storyboard */; };
 		CA30F9CE21E3FEB100F99978 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA30F9CD21E3FEB100F99978 /* Assets.xcassets */; };
 		CA30F9D121E3FEB100F99978 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA30F9CF21E3FEB100F99978 /* LaunchScreen.storyboard */; };
+		CA30F9D921E40E4100F99978 /* CustomScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA30F9D821E40E4100F99978 /* CustomScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		CA30F9CD21E3FEB100F99978 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA30F9D021E3FEB100F99978 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CA30F9D221E3FEB100F99978 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA30F9D821E40E4100F99978 /* CustomScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				CA30F9C621E3FEB100F99978 /* AppDelegate.swift */,
 				CA30F9C821E3FEB100F99978 /* ViewController.swift */,
 				CA30F9CA21E3FEB100F99978 /* Main.storyboard */,
+				CA30F9D821E40E4100F99978 /* CustomScene.swift */,
 				CA30F9CD21E3FEB100F99978 /* Assets.xcassets */,
 				CA30F9CF21E3FEB100F99978 /* LaunchScreen.storyboard */,
 				CA30F9D221E3FEB100F99978 /* Info.plist */,
@@ -137,6 +140,7 @@
 			files = (
 				CA30F9C921E3FEB100F99978 /* ViewController.swift in Sources */,
 				CA30F9C721E3FEB100F99978 /* AppDelegate.swift in Sources */,
+				CA30F9D921E40E4100F99978 /* CustomScene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
