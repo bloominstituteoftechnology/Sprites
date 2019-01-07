@@ -10,6 +10,7 @@ class CustomScene: SKScene {
         node.fillColor = randomUIColor()
         node.position = touch.location(in: self)
         addChild(node)
+        
     }
     
     func randomCGFloat() -> CGFloat {

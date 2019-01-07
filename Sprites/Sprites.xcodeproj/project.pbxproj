@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7782ABC721E4184B00E75D6F /* Test.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 7782ABC621E4184B00E75D6F /* Test.rtf */; };
 		77FB31A621E3ED7F000BDE96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77FB31A521E3ED7F000BDE96 /* AppDelegate.swift */; };
 		77FB31A821E3ED7F000BDE96 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77FB31A721E3ED7F000BDE96 /* ViewController.swift */; };
 		77FB31AB21E3ED7F000BDE96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77FB31A921E3ED7F000BDE96 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7782ABC621E4184B00E75D6F /* Test.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; name = Test.rtf; path = ../Test.rtf; sourceTree = "<group>"; };
 		77FB31A221E3ED7F000BDE96 /* Sprites.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sprites.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77FB31A521E3ED7F000BDE96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		77FB31A721E3ED7F000BDE96 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -41,6 +43,7 @@
 			isa = PBXGroup;
 			children = (
 				77FB31A421E3ED7F000BDE96 /* Sprites */,
+				7782ABC621E4184B00E75D6F /* Test.rtf */,
 				77FB31A321E3ED7F000BDE96 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -127,6 +130,7 @@
 			files = (
 				77FB31B021E3ED80000BDE96 /* LaunchScreen.storyboard in Resources */,
 				77FB31AD21E3ED80000BDE96 /* Assets.xcassets in Resources */,
+				7782ABC721E4184B00E75D6F /* Test.rtf in Resources */,
 				77FB31AB21E3ED7F000BDE96 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
