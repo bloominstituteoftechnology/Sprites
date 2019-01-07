@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:../../Sprites_Questions.txt">
+   </FileRef>
+   <FileRef
       location = "self:Sprites.xcodeproj">
    </FileRef>
 </Workspace>

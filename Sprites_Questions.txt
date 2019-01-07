@@ -1,0 +1,17 @@
+
+Jocelyn Stuart
+•	Why do we use version control? Under what circumstances would you need version control features and why?
+
+We use version control to manage versions of programs/projects while we are building them, create history that shows the progression of the program, and to act as a back-up. Version control features are needed when collaborating on projects and managing versions because the features allow each group member to work freely on any file, merge/combine files with others, and keep up to date on the latest versions. This allows the project development to be organized and stored in a remote location accessible to all involved.
+
+•	What are the navigator, editor, and inspectors areas in Xcode? What are their roles and how do you use them?
+
+The navigator, editor, and inspector areas are part of the Workspace window in Xcode. The navigator area is the left-most, and provides access or allows you to navigate to different parts of the project whether you need to view more information on bugs, tests, or breakpoints in the code, etc. The editor area is located in the center, and allows you to edit the files within the project (storyboard, swift files, etc). The inspector area is the right-most, and allows you to get help, edit attributes of each file or item, make/edit connections, or edit identifiers, etc.
+
+•	How do you center a view in Interface Builder? How do you stretch one?
+To center a view in Interface Builder you can use Autolayout, actual code, or drag it to the center of the screen where the vertical blue line and horizontal blue line appear. To stretch a view in Interface Builder you can use autoresize, drag the corners manually, or in the inspector pane manually enter the size for each side of the view.
+
+•	What is SpriteKit and why do people use it?
+
+According to Apple Developer Documentation, SpriteKit is a general-purpose framework for drawing shapes, particles, text, images, and video in 2D. People use it to create games, or graphic-intensive apps especially because it is already built-in to Xcode and it is free.
+
