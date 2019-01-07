@@ -1,17 +1,18 @@
 Why do we use version control? Under what circumstances would you need version control features and why?
 
-
+We use a VCS to track changes in software projects, giving creators the power to view previous versions of files and directories, develop speculative features without disrupting the main development, securely back up the project and its history, and collaborate easily and conveniently with others.
 
 
 What are the navigator, editor, and inspectors areas in Xcode? What are their roles and how do you use them?
 
-
+The navigator oversees the hierarchy of files in an Xcode project. The editor is responsible for changes made to the project code and interface. The inspectors are responsible for individual characteristics of storyboard elements(outlets, actions, etc.)
 
 
 How do you center a view in Interface Builder? How do you stretch one?
 
-
-
+There are multiple ways of doing this, one way to center a view in IB is to take the view and select the center horizontally and vertically in safe area options (ctrl + click the view and drag the other end of the line created to a safe blank space to access options)
 
 
 What is SpriteKit and why do people use it?
+
+SpriteKit is a framework created by Apple with built in features for developers to create games. It makes things such as physics, movement, and animations much easier to build within the framework.
