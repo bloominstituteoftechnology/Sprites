@@ -21,13 +21,11 @@ class CustomScene: SKScene {
         
         let scaleStart = SKAction.scale(to: 1.3, duration: 0.5)
         let scaleEnd = SKAction.scale(to: 1, duration: 0.5)
-        let sequence = SKAction.sequence([scaleStart, scaleEnd])
+        let sequenceSize = SKAction.sequence([scaleStart, scaleEnd])
         
-        node.run(sequence)
+        node.run(sequenceSize)
     }
 }
-
-
 
 var randomColor: UIColor {
     let hue : CGFloat = CGFloat(arc4random() % 256) / 256 // use 256 to get full range from 0.0 to 1.0
