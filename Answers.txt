@@ -1,0 +1,18 @@
+
+Why do we use version control? 
+Version control allows programmers to remotely store and edit projects.
+
+Under what circumstances would you need version control features and why?
+When working with a group it allows multiple programmers to work on the same project at the same time.
+
+What are the navigator, editor, and inspectors areas in Xcode? 
+
+
+What are their roles and how do you use them?
+
+
+How do you center a view in Interface Builder? How do you stretch one?
+
+
+What is SpriteKit and why do people use it?
+SpiteKit is for using sprites for images.
