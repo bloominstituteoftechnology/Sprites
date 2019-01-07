@@ -7,9 +7,12 @@
 //
 
 import UIKit
+import SpriteKit
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet weak var mySkview: SKView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.

@@ -12,6 +12,7 @@
 		1BF087B821E3FECA009CA029 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BF087B621E3FECA009CA029 /* Main.storyboard */; };
 		1BF087BA21E3FECB009CA029 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BF087B921E3FECB009CA029 /* Assets.xcassets */; };
 		1BF087BD21E3FECB009CA029 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BF087BB21E3FECB009CA029 /* LaunchScreen.storyboard */; };
+		1BF087C521E41070009CA029 /* CustomScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF087C421E41070009CA029 /* CustomScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		1BF087B921E3FECB009CA029 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1BF087BC21E3FECB009CA029 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1BF087BE21E3FECB009CA029 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BF087C421E41070009CA029 /* CustomScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				1BF087B221E3FECA009CA029 /* AppDelegate.swift */,
 				1BF087B421E3FECA009CA029 /* ViewController.swift */,
+				1BF087C421E41070009CA029 /* CustomScene.swift */,
 				1BF087B621E3FECA009CA029 /* Main.storyboard */,
 				1BF087B921E3FECB009CA029 /* Assets.xcassets */,
 				1BF087BB21E3FECB009CA029 /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			files = (
 				1BF087B521E3FECA009CA029 /* ViewController.swift in Sources */,
 				1BF087B321E3FECA009CA029 /* AppDelegate.swift in Sources */,
+				1BF087C521E41070009CA029 /* CustomScene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
