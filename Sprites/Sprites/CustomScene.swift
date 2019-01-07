@@ -7,8 +7,18 @@ class CustomScene: SKScene {
             else { return }
         
         let node = SKShapeNode(circleOfRadius: 8)
-        node.fillColor = .red
+        node.fillColor = randomUIColor()
         node.position = touch.location(in: self)
         addChild(node)
+    }
+    
+    func randomCGFloat() -> CGFloat {
+        return CGFloat(arc4random()) / CGFloat(UInt32.max)
+    }
+    
+    func randomUIColor() -> UIColor {
+        let alphaNumber = CGFloat(Double.random(in: 0.5...1.0))
+        
+        return UIColor(red: randomCGFloat(), green: randomCGFloat(), blue: randomCGFloat(), alpha: alphaNumber)
     }
 }
