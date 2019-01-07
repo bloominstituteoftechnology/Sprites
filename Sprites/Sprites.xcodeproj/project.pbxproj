@@ -13,7 +13,6 @@
 		BB2070E721E3FED100020C7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB2070E621E3FED100020C7A /* Assets.xcassets */; };
 		BB2070EA21E3FED100020C7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB2070E821E3FED100020C7A /* LaunchScreen.storyboard */; };
 		BB2070F221E4044D00020C7A /* CustomScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2070F121E4044D00020C7A /* CustomScene.swift */; };
-		BB2070F621E40F4300020C7A /* Sprites_Questions.rtf in Resources */ = {isa = PBXBuildFile; fileRef = BB2070F521E40F4300020C7A /* Sprites_Questions.rtf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +24,6 @@
 		BB2070E921E3FED100020C7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB2070EB21E3FED100020C7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BB2070F121E4044D00020C7A /* CustomScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomScene.swift; sourceTree = "<group>"; };
-		BB2070F521E40F4300020C7A /* Sprites_Questions.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; name = Sprites_Questions.rtf; path = ../../../Sprites_Questions.rtf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +59,6 @@
 				BB2070DF21E3FECF00020C7A /* AppDelegate.swift */,
 				BB2070E121E3FECF00020C7A /* ViewController.swift */,
 				BB2070F121E4044D00020C7A /* CustomScene.swift */,
-				BB2070F521E40F4300020C7A /* Sprites_Questions.rtf */,
 				BB2070E321E3FECF00020C7A /* Main.storyboard */,
 				BB2070E621E3FED100020C7A /* Assets.xcassets */,
 				BB2070E821E3FED100020C7A /* LaunchScreen.storyboard */,
@@ -131,7 +128,6 @@
 				BB2070EA21E3FED100020C7A /* LaunchScreen.storyboard in Resources */,
 				BB2070E721E3FED100020C7A /* Assets.xcassets in Resources */,
 				BB2070E521E3FECF00020C7A /* Main.storyboard in Resources */,
-				BB2070F621E40F4300020C7A /* Sprites_Questions.rtf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
