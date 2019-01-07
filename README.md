@@ -71,7 +71,7 @@ class ViewController: UIViewController {
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         skscene = CustomScene(size: view.bounds.size)
-        skview.presentScene(skScene)
+        skview.presentScene(skscene)
     }
 }
 ```
