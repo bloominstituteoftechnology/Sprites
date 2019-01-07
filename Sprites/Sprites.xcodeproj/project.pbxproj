@@ -14,6 +14,7 @@
 		4B8B40D921E3EB8D00BA89B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B8B40D721E3EB8D00BA89B3 /* LaunchScreen.storyboard */; };
 		4B8B40E321E3EBE900BA89B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B8B40E121E3EBE900BA89B3 /* LaunchScreen.storyboard */; };
 		4B8B40E421E3EBE900BA89B3 /* LambdaLogoAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B8B40E221E3EBE900BA89B3 /* LambdaLogoAssets.xcassets */; };
+		4B8B40E621E3F26500BA89B3 /* CustomScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8B40E521E3F26500BA89B3 /* CustomScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		4B8B40DA21E3EB8D00BA89B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4B8B40E121E3EBE900BA89B3 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4B8B40E221E3EBE900BA89B3 /* LambdaLogoAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = LambdaLogoAssets.xcassets; sourceTree = "<group>"; };
+		4B8B40E521E3F26500BA89B3 /* CustomScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			children = (
 				4B8B40CE21E3EB8C00BA89B3 /* AppDelegate.swift */,
 				4B8B40D021E3EB8C00BA89B3 /* ViewController.swift */,
+				4B8B40E521E3F26500BA89B3 /* CustomScene.swift */,
 				4B8B40D221E3EB8C00BA89B3 /* Main.storyboard */,
 				4B8B40D521E3EB8D00BA89B3 /* Assets.xcassets */,
 				4B8B40D721E3EB8D00BA89B3 /* LaunchScreen.storyboard */,
@@ -153,6 +156,7 @@
 			files = (
 				4B8B40D121E3EB8C00BA89B3 /* ViewController.swift in Sources */,
 				4B8B40CF21E3EB8C00BA89B3 /* AppDelegate.swift in Sources */,
+				4B8B40E621E3F26500BA89B3 /* CustomScene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
