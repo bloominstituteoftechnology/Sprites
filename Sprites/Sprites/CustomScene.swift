@@ -1,9 +1,14 @@
-//
-//  CustomScene.swift
-//  Sprites
-//
-//  Created by Paul Yi on 1/7/19.
-//  Copyright © 2019 Paul Yi. All rights reserved.
-//
+import UIKit
+import SpriteKit
 
-import Foundation
+class CustomeScene: SKScene {
+    public override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        guard !touches.isEmpty, let touch = touches.first
+            else { return }
+        
+        let node = SKShapeNode(circleOfRadius: 8)
+        node.fillColor = .red
+        node.position = touch.location(in: self)
+        addChild(node)
+    }
+}
