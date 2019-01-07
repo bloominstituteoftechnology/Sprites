@@ -10,7 +10,8 @@ import UIKit
 import SpriteKit
 
 class ViewController: UIViewController {
-    @IBOutlet var skview: SKView!
+    
+    @IBOutlet weak var skview: SKView!
     
     var skscene: CustomScene? = nil
     
