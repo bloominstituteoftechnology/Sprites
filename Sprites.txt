@@ -1,0 +1,17 @@
+Why do we use version control? Under what circumstances would you need version control features and why?
+
+
+
+
+What are the navigator, editor, and inspectors areas in Xcode? What are their roles and how do you use them?
+
+
+
+
+How do you center a view in Interface Builder? How do you stretch one?
+
+
+
+
+
+What is SpriteKit and why do people use it?
