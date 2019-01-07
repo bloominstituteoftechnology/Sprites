@@ -21,7 +21,6 @@ class CustomScene: SKScene {
         let node = SKShapeNode(circleOfRadius: 8)
         node.fillColor = randomColor()
         node.position = CGPoint(x: width/2, y: height/2)
-        //node.position = touch.location(in: self)
         addChild(node)
         
         let scaleUp = SKAction.scale(to: 1.3, duration: 0.5)
