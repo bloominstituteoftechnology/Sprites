@@ -18,6 +18,11 @@ class CustomScene: SKScene {
         node.fillColor = randomColor()
         node.position = touch.location(in: self)
         addChild(node)
+        
+        let scaleUp = SKAction.scale(to: 1.3, duration: 0.5)
+        let scaleDown = SKAction.scale(to: 1.0, duration: 0.5)
+        let sequence = SKAction.sequence([scaleUp, scaleDown])
+        node.run(sequence)
     }
     
     func randomColor() -> UIColor {
