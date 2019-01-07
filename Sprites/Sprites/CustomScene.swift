@@ -17,15 +17,17 @@ class CustomeScene: SKScene {
         let randomBlueValue = 0.5 + CGFloat(arc4random_uniform(51))/100
         let randomColor = UIColor(red: randomRedValue, green: randomGreenValue, blue: randomBlueValue, alpha: 1.0)
         
+        
         let scale = SKAction.scale(to: 1.3, duration: 0.5)
-        let fade = SKAction.fadeOut(withDuration: 0.5)
-        let sequence = SKAction.sequence([scale, fade])
+        let move = SKAction.move(to: touch.location(in: self), duration: 0.5)
+        let sequence = SKAction.sequence([scale, move])
         
         let node = SKShapeNode(circleOfRadius: 8)
         node.fillColor = randomColor
-        node.position = touch.location(in: self)
+        node.position = CGPoint(x: frame.midX, y: frame.midY)
         node.run(sequence)
         addChild(node)
     }
+    
 }
 
