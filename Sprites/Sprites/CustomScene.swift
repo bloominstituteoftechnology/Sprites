@@ -8,9 +8,19 @@ class CustomScene: SKScene {
         
         let node = SKShapeNode(circleOfRadius: 8)
         node.fillColor = randomUIColor()
-        node.position = touch.location(in: self)
+        node.position = CGPoint(x: frame.midX, y: frame.midY)
         addChild(node)
         
+        let largeNodeSize = SKAction.scale(by: 1.3, duration: 0.3)
+        let normalNodeSize = SKAction.scale(to: 1.0, duration: 0.1)
+        let sequenceSizeAction = SKAction.sequence([largeNodeSize, normalNodeSize])
+        
+        node.run(sequenceSizeAction)
+        
+        let nodeTouchPosition = touch.location(in: self)
+        let nodePositionSequence = SKAction.move(to: nodeTouchPosition, duration: 0.2)
+        
+        node.run(nodePositionSequence)
     }
     
     func randomCGFloat() -> CGFloat {
