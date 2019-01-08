@@ -1,0 +1,15 @@
+Q:  Why do we use version control? Under what circumstances would you need version control features and why?
+
+A:  We use version control to allow us to work together with other coders on the same project. It also allows us to keep a history of changes and keeps both remote and local versions of the project. We need version control in order to efficiently pass updates and changes amongst a team working on the same project.
+
+Q:  What are the navigator, editor, and inspectors areas in Xcode? What are their roles and how do you use them?
+
+A:  The navigator is the pane displayed to the left of the Xcode window. It allows us to navigate between different files inside of the project. The editor is displayed in the middle pane and is where we edit Swift code, storyboards and other files contained in the project. The inspector pane is on the right side of the window. We can interact with specific elements in our project here (ie: changing names, languages, etc.)
+
+Q:  How do you center a view in Interface Builder? How do you stretch one?
+
+A:  To center a view in Interface Builder, use the Align button at the bottom right of the editor pane and set "Vertically in Container" and "Horizontally in Container" to 0. In order to stretch the view, click the "Add New Constraints" button at the bottom right of the editor pane and set the top four numbers to 0.
+
+Q:  What is SpriteKit and why do people use it?
+
+A:  SpriteKit is a framework provided by Apple that allows developers to add 2D content to apps. Developers use it to draw elements in two dimensions.
