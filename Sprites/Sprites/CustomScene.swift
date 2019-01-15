@@ -11,17 +11,19 @@ import Foundation
 import UIKit
 import SpriteKit
 
-extension CGFloat {
-    static var random: CGFloat {
-        return CGFloat(arc4random()) / CGFloat(UInt32.max)
-    }
+
+func randomCGFloat() -> CGFloat {
+    return CGFloat(arc4random()) / CGFloat(UInt32.max)
 }
 
-extension UIColor {
-    static var random: UIColor {
-        return UIColor(red: .random, green: .random, blue: .random, alpha: 1.0)
-    }
+func randomUIColor() -> UIColor {
+    let alphaNumber = CGFloat(Double.random(in: 0.5...1.0))
+    
+    return UIColor(red: randomCGFloat(), green: randomCGFloat(), blue: randomCGFloat(), alpha: alphaNumber)
 }
+
+
+
 
 
 class CustomScene: SKScene {
@@ -30,8 +32,12 @@ class CustomScene: SKScene {
             else { return }
         
         let node = SKShapeNode(circleOfRadius: 8)
-        node.fillColor = .random
+        node.fillColor = randomUIColor()
         node.position = touch.location(in: self)
         addChild(node)
     }
+    
+    
+    
+    
 }
